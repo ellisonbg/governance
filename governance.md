@@ -6,59 +6,121 @@ section below, is contained in The Project Governance Repository at:
 
 [https://github.com/jupyter/governance](https://github.com/jupyter/governance)
 
-The Project
-===========
+# The Project
 
-The Jupyter/IPython Project (The Project) is an open source software project
-affiliated with the 501c3 NumFocus Foundation. The goal of The Project is to
-develop open source software and deploy open and public websites and services
-for reproducible, exploratory and interactive computing. The Software developed
-by The Project is released under the BSD (or similar) open source license,
-developed openly and hosted in public GitHub repositories under the
-[IPython GitHub organization](https://github.com/ipython) and the
-[Jupyter GitHub organization](https://github.com/jupyter). Examples of
-Project Software include the IPython Notebook, the IPython Terminal,
-IPython.parallel, the Jupyter Hub, etc. The Services run by the
-Project consist of public websites and web-services that are hosted
-under the jupyter.org or ipython.org domains. The Services Examples of
-Project Services include the Jupyter and IPython websites
-([http://jupyter.org](http://jupyter.org) and
-[http://ipython.org](http://ipython.org)), nbviewer
-([https://nbviewer.ipython.org](https://nbviewer.ipython.org)) and the
-Jupyter coLaboratory
-([https://colaboratory.jupyter.org](https://colaboratory.jupyter.org)).
+Project Jupyter (The Project) is an open source software project
+affiliated with the 501c3 NumFocus Foundation.
 
-The Project is developed by a team of distributed developers, called
-Contributors. Contributors are individuals who have contributed code,
-documentation, designs or other work to one or more Project repositories.
+## Our Common Purpose
+
+Project Jupyter exists to develop open-source software, open
+standards, and services for reproducible, exploratory and
+interactive computing.
+
+## Software, Standards and Services
+
+This section clarifies the Software, Standards, and Services mentioned in our
+Common Purpose.
+
+Software developed by The Project is released under the BSD (or similar)
+open source license, developed openly and hosted in public GitHub repositories
+under the following GitHub organizations:
+
+* [ipython](https://github.com/ipython)
+* [jupyter](https://github.com/jupyter)
+* [jupyterhub](https://github.com/jupyterhub)
+* [jupyterlab](https://github.com/jupyterlab)
+* [jupyter-widgets](https://github.com/jupyter-widgets)
+* [jupyter-resources](https://github.com/jupyter-resources)
+* [jupyter-incubator](https://github.com/jupyter-incubator)
+
+Open standards developed and maintained by The Project include:
+
+* [The Jupyter Notebook Document format]()
+* [The Jupyter Kernel Message Specification]()
+* [The server APIs of the Jupyter Notebook Server]()
+
+The Services of The Project include:
+
+* [http://jupyter.org](http://jupyter.org)
+* [http://ipython.org](http://ipython.org)
+* [https://nbviewer.ipython.org](https://nbviewer.ipython.org)
+* [The Jupyter Newsletter]()
+* [The Jupyter Blog]()
+* Documentation Sites on [ReadTheDocs]()
+
+## Contributors
+
+The Project is developed by a team of distributed individuals, called
+Contributors who work on The Project. Contributors are individuals who have
+contributed code, documentation, design, or organizational/community work to
+Jupyter Software, Standards, or Services.
+
 Anyone can be a Contributor. Contributors can be affiliated with any legal
-entity or none. Contributors participate in the project by submitting,
+entity or none. Contributors participate in The Project by submitting,
 reviewing and discussing GitHub Pull Requests and Issues and participating in
 open and public Project discussions on GitHub, Google+, Hackpad, Gitter chat
 rooms and mailing lists. The foundation of Project participation is openness
 and transparency.
 
-Here is a list of the current Contributors to the main IPython repository:
+## Our Community
 
-[https://github.com/ipython/ipython/graphs/contributors](https://github.com/ipython/ipython/graphs/contributors)
-
-There are also many other Contributors listed in the logs of other repositories of
-the Jupyter and IPython projects.
-
-The Project Community consists of all Contributors and Users of the Project.
+The Project Community consists of all Contributors to and Users of the Project.
 Contributors work on behalf of and are responsible to the larger Project
 Community and we strive to keep the barrier between Contributors and Users as
 low as possible.
+
+Our community of Contributors and Users is diverse and inclusive. We welcome
+individuals from every country, ethnic group, gender, education level, economic
+status, religious belief, political affiliation, sexual orientation,
+employment status, and age (missing any?).
+
+This statement of inclusivity and diversity has three aspects:
+
+1. It is a statement of fact. Our community is already diverse to a varying
+   extent along these dimensions.
+
+2. It is ethical and aspirational. We believe that it is ethical, just and
+   benficial for our project to have a diverse community and are actively taking
+   steps to make it more diverse and inclusive.
+
+3. It is important legally. Jupyter Users and Contributors often participate
+   in The Project as part of their employment. Essentially all relevant legal
+   jurisdictions (nation, state, local) have protected characteristics for
+   employment. For employees to participate safely, The Project must at least
+   meet these minimal legal requirements.
+
+This statement on diversity should be taken at face value and not interpreted
+it in the context of any particular political party or philosophy.
+
+## Communications
+
+Communications and discussions in official online channels (email, GitHub,
+gitter, Twitter, documentation, software) and official Jupyter events
+(JupyterCon, JupyterDays, etc.) shall be limited to our Common Purpose and
+governed by our Code of Conduct. This is to enable our diverse community to
+participate in our Common Purpose with safety.
+
+The Code of Conduct also applies in public spaces when an individual is
+representing the project or its community. Examples of representing a project
+or community include using an official project e-mail address, posting via an
+official social media account, or acting as an appointed representative at an
+online or offline event.
+
+Communications outside official project channels and events are unrestricted,
+but each member of our community member is fully responsible for being someone
+with whom others want to collaborate.
+
+## NumFOCUS
 
 The Project is formally affiliated with the 501c3 NumFOCUS Foundation
 ([http://numfocus.org](http://numfocus.org)), which serves as its fiscal
 sponsor, may hold project trademarks and other intellectual property, helps
 manage project donations and acts as a parent legal entity. NumFOCUS is the
-only legal entity that has a formal relationship with the project (see
+only legal entity that has a formal relationship with The Project (see
 Institutional Partners section below).
 
-Governance
-==========
+# Governance
 
 This section describes the governance and leadership model of The Project.
 
@@ -83,8 +145,7 @@ will consist of a BDFL and Steering Council. We view this governance model as
 the formalization of what we are already doing, rather than a change in
 direction.
 
-BDFL
-----
+## BDFL
 
 The Project will have a BDFL (Benevolent Dictator for Life), who is currently
 Fernando Perez. As Dictator, the BDFL has the authority to make all final
@@ -109,10 +170,80 @@ Main NumFOCUS Board. While the Steering Council and Main NumFOCUS Board will
 work together closely on the BDFL selection process, the Main NUMFOCUS Board
 will make the final decision.
 
-Steering Council
-----------------
+## Distinguished Contributors
 
-The Project will have a Steering Council that consists of Project Contributors
+The Project will have a group of Distinguished Contributors that consists of
+Project Contributors who have produced contributions that are substantial in
+quality and quantity, and sustained over at least one year. Contributions
+can be of any nature (technical, code, design, events, governance, outreach,
+community) but those contributions must be directly to Project Jupyter. While we
+encourage contributions to other open-source projects and their associated
+communities such contributions are not sufficient to be considered.
+
+The primary role of the Distinguished Contributor designation is to publicly
+acknowledge significant contributions to the project. During the everyday
+project activities, Distinguished Contributors participate in all discussions,
+development, design, code review and other project activities as peers with all
+other Contributors and the Community. In these everyday activities,
+Distinguished Contributors do not have any special power or privilege through
+their appointment. However, it is expected that because of the quality and
+quantity of their contributions and their expert knowledge of the Project
+Software and Services that Distinguished Contributors will provide useful
+guidance and mentoring to other members of the Community.
+
+Individuals are nominated as a Distinguished Contributor by any existing
+Distinguished Contributor. Approval of the nomination occurs through a vote of
+the existing Distinguished Contributors (2/3 approval with 80% quorum) and is
+announced in a public project communication channel.
+
+The only formal governance role of the Distinguished Contributors is to vote on
+certain matters of broad importance to the project (see below).
+
+Once an individual is approved as a Distinguished Contributor, they maintain
+that status forever, unless they elect to be removed. Thus, the group of
+Distinguished Contributors is allowed to grow over time without bound.
+
+Questions:
+
+* Should we have a private or public email list for Distinguished Contributors.
+  There are most certainly matters we handle privately (invitations to in person
+  team meetings, IP related things, anything sensitive requiring broad concensus).
+* How does voting work? Private, public?
+
+## Steering Council
+
+The Project will have a Steering Council that consists of an elected subset of 
+Distinguished Contributors who play an active role in the governance of The 
+Project. The Steering Council shall have 
+
+
+The Steering Council is an active governance 
+
+The Steering Council manages the election process:
+
+* Notifies the DC's of a vacancy and solicits private nominations.
+* Criteria:
+  - They have been a Distinguished Contributor for a full year.
+  - They are currently making active and significant contributions to the project.
+* Notifies the nominees and asks if they are willing to serve.
+* Discusses the nominees privately.
+* Should SC or DCs vote? Private or public vote?
+* Nominated by Distinguished Contributors anytime there is a vacancy.
+* Approved by vote of the Distinguished Contributors 
+
+Members of the Steering Council have the following responsibilities:
+
+* Maintain and enforce the Project's Code of Conduct.
+* Maintain the project's governance documents.
+* Make decisions about strategic collaborations with other organizations or
+  individuals and maintain those collaborations.
+* Maintain our relationship with NumFOCUS.
+* 
+* Make decisions about Services that are run by The Project and ensure
+    those Services are maintaineed for the benefit of the Project and Community.
+* Make decisions related to Jupyter's licensing, intellectual property, copyright
+  trademarks, etc.
+
 who have produced contributions that are substantial in quality and quantity,
 and sustained over at least one year. The overall role of the Council is to
 ensure, through working with the BDFL and taking input from the Community, the
@@ -247,8 +378,7 @@ interactions with NumFOCUS.
     max). This avoids effective majorities resting on one person.
 
 
-Institutional Partners and Funding
-==================================
+# Institutional Partners and Funding
 
 The BDFL and Steering Council are the primary leadership for the project. No
 outside institution, individual or legal entity has the ability to own,
@@ -323,8 +453,7 @@ Partners, with associated benefits:
     Workshop and bi-annual Jupyter/IPython Developer Meeting.
 
 
-Changing the Governance Documents
-=================================
+# Changing the Governance Documents
 
 Changes to the governance documents are submitted via a GitHub pull
 request to The Project's governance documents GitHub repository at
